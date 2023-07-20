@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "254180530026",
+    "firebase_url": "https://brave-pen-390601-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "brave-pen-390601",
+    "storage_bucket": "brave-pen-390601.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254180530026:android:c356b6dd8600055030f713",
+        "android_client_info": {
+          "package_name": "com.codeid.tugasakhir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254180530026-ck2qum3fajs5fnt8cesm5sub21nhu6jt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwwa-7nYd-3U9irZ4ekI8oH3-Lr6TewA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254180530026-ck2qum3fajs5fnt8cesm5sub21nhu6jt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

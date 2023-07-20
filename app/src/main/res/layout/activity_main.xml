@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="-20dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/iv1" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2"
+        android:text="Selamat Datang"
+        android:gravity="center"
+        android:paddingTop="60dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini merupakan\naplikasi mobile
+untuk kejadian gawat darurat di Kabupaten Kebumen"
+        android:layout_below="@+id/iv1"
+        android:paddingTop="40dp"
+        android:gravity="center"
+        android:id="@+id/tv2"
+android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:id="@+id/b1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:text="Masuk"
+        android:fontFamily="@font/poppinssemibold"
+        android:background="@drawable/bt_shape"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/b1"
+        android:id="@+id/b2"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:width="300dp"
+        android:text="Daftar"
+        android:fontFamily="@font/poppinssemibold"
+        android:background="@drawable/bt_shape"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>

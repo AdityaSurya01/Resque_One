@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivlogin"
+        android:layout_width="match_parent"
+        android:layout_height="394dp"
+        android:layout_marginTop="-20dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/login" />
+
+    <TextView
+        android:id="@+id/textregis"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@id/ivlogin"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Masuk Sekarang"
+        android:layout_marginTop="-15dp"
+        android:textColor="#6672ff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:layout_width="343dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/textregis"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableStart="@drawable/name"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:layout_marginBottom="5dp"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:paddingBottom="5dp"
+        android:textColorHint="#3B608C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputpass"
+        android:layout_width="343dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/inputnama"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/edittext_bg"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColorHint="#3B608C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputpass"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/lupapw"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Lupa password"
+        android:textColor="@color/second"
+        android:textSize="15sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkboxRememberMe"
+        android:layout_width="120dp"
+        android:layout_height="22dp"
+        android:layout_below="@id/inputpass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:text="Ingat Saya"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinssemibold"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btlog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lupapw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:width="300dp"
+        android:background="@drawable/bt_shape"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:layout_below="@id/btlog"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Belum punya akun?"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinssemibold"
+            android:text=" Daftar"
+            android:textColor="@color/second"
+            android:textSize="12sp"
+            android:id="@+id/keregis"/>
+    </LinearLayout>
+
+</RelativeLayout>

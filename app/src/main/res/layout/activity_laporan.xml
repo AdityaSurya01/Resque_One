@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6571fd"
+        tools:context=".laporan">
+
+    <ImageView
+        android:id="@+id/rsbwh"
+        android:layout_width="match_parent"
+        android:layout_height="569dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="179dp"
+        app:srcCompat="@drawable/ners" />
+
+    <ImageView
+        android:id="@+id/rsbwh2"
+        android:layout_width="match_parent"
+        android:layout_height="569dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-30dp"
+        app:srcCompat="@drawable/ners" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lapor Kejadian"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rsbwh"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="20dp"
+        android:padding="8dp"
+        android:id="@+id/kategori"
+        android:text="Kategori"
+        android:fontFamily="@font/poppinsmedium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="371dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/kategori"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="-5dp"
+        android:entries="@array/pilihan_array"
+        android:textColor="#000000"
+        android:background="@drawable/spinner" />
+
+    <TextView
+        android:id="@+id/desk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="8dp"
+        android:text="Deskripsi Kejadian"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desk"
+        android:layout_marginTop="1dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/edittext_bg"
+        android:fontFamily="@font/poppinsmedium"
+        android:hint="Masukkan Deskripsi" />
+
+    <TextView
+        android:id="@+id/buktifoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDeskripsi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:padding="8dp"
+        android:text="Bukti Foto"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnfoto"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buktifoto"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/foto" />
+
+    <ImageView
+        android:id="@+id/btnkrmlaporan"
+        android:layout_width="304dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/btnfoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="292dp"
+        android:src="@drawable/kirimlaporan" />
+
+    <ImageView
+        android:layout_width="358dp"
+        android:layout_height="261dp"
+        android:layout_below="@id/buktifoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imgkamera"
+        android:scaleType="fitXY" />
+</RelativeLayout>

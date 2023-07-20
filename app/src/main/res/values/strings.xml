@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tugasakhir</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps1">Maps1</string>
+    <string name="title_activity_maps2">Maps2</string>
+    <string name="title_activity_maps3">Maps3</string>
+</resources>

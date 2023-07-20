@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6571fd"
+    tools:context=".sruweng">
+
+
+    <ImageView
+        android:id="@+id/rsbwh"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="-8dp"
+        app:srcCompat="@drawable/bgnew" />
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="195dp"
+        android:id="@+id/tampilansruweng"
+        android:layout_alignTop="@+id/rsbwh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/rssruweng" />
+
+    <ImageView
+        android:layout_width="330dp"
+        android:layout_height="249dp"
+        android:id="@+id/tampilan"
+        android:layout_below="@id/tampilansruweng"
+        android:layout_alignTop="@+id/rsbwh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="257dp"
+        android:src="@drawable/tsruweng" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RSU PKU Muhhamadiyah Sruweng"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"
+        android:padding="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tampilan"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Pergi ke google map"
+        android:textColor="@color/second"
+        android:textStyle="bold"
+        android:id="@+id/gm"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" />
+</RelativeLayout>
